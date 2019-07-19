@@ -1,0 +1,22 @@
+Package: ewocR2
+Title: Modele 1 these anne
+Version: 0.0.0.9000
+Authors@R: person("Anne", "Bisson", email = "anne.bisson@supagro.fr", role = c("aut", "cre"))
+Description: le mega modele contenant les systemes d'equations differentielles
+    et la fonction modeleisant sur plusieurs anne. Et les fonctions graphiques
+    permettants les plots des fonctions.
+Depends:
+    R (>= 3.3.2)
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+    deSolve,
+    reshape2,
+    ggplot2,
+    dplyr,
+    magrittr
+Suggests:
+    testthat (>= 0.8.0),
+    rmarkdown
+RoxygenNote: 6.0.1
